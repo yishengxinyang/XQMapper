@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XQMapper'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'json和模型相互转化映射工具'
 
 # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'XQMapper/Classes/*'
+  s.source_files = 'Classes/*'
   
   # s.resource_bundles = {
   #   'XQMapper' => ['XQMapper/Assets/*.png']
