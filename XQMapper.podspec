@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'XQMapper/Classes/**/*'
+  s.source_files = 'XQMapper/Classes/*'
   
   # s.resource_bundles = {
   #   'XQMapper' => ['XQMapper/Assets/*.png']
