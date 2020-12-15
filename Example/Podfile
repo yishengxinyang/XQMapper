@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'XQMapper_Example' do
+  pod 'XQMapper', :path => '../'
+
+  target 'XQMapper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
