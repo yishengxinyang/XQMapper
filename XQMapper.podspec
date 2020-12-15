@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XQMapper'
-  s.version          = '0.1.3'
+  s.version          = '0.1.5'
   s.summary          = 'json和模型相互转化映射工具'
 
 # This description is used to generate tags and improve search results.
