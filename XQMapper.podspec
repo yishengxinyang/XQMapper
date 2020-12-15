@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XQMapper'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'json和模型相互转化映射工具'
 
 # This description is used to generate tags and improve search results.
@@ -19,10 +19,10 @@ Pod::Spec.new do |s|
 
   s.description      = "json转模型，json字符串转模型；模型转json的映射工具"
 
-  s.homepage         = 'https://github.com/xiexiangqing/XQMapper'
+  s.homepage         = 'https://github.com/yishengxinyang/Mappble.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xiexiangqing' => '1373867490@qq.com' }
-  s.source           = { :git => 'https://github.com/xiexiangqing/XQMapper.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/yishengxinyang/Mappble.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
