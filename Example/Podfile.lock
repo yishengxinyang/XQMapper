@@ -1,0 +1,16 @@
+PODS:
+  - XQMapper (0.1.0)
+
+DEPENDENCIES:
+  - XQMapper (from `../`)
+
+EXTERNAL SOURCES:
+  XQMapper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XQMapper: fac96a8f50ae3f99649f456995c997243b29c21a
+
+PODFILE CHECKSUM: 50cdae9efb770a781a5568eaa90a674d540951fc
+
+COCOAPODS: 1.10.0

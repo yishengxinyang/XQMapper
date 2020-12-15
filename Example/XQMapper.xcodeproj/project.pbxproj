@@ -8,8 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		1E3F109966DCF568132DABDB /* Pods_XQMapper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB61E89D2CBA414D3B98377 /* Pods_XQMapper_Example.framework */; };
-		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
+		58CDF7B625888693005C7C8D /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CDF7B325888693005C7C8D /* TestModel.swift */; };
+		58CDF7B725888693005C7C8D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CDF7B425888693005C7C8D /* Model.swift */; };
+		58CDF7B825888693005C7C8D /* TestModel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CDF7B525888693005C7C8D /* TestModel1.swift */; };
+		58CDF7BB258886B0005C7C8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CDF7B9258886B0005C7C8D /* ViewController.swift */; };
+		58CDF7BC258886B0005C7C8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CDF7BA258886B0005C7C8D /* AppDelegate.swift */; };
+		58CDF7BE258886D9005C7C8D /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CDF7BD258886D9005C7C8D /* HomeController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
@@ -29,22 +33,26 @@
 
 /* Begin PBXFileReference section */
 		144E39383CDA51AA28E85843 /* Pods_XQMapper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XQMapper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EA50C5905B94B6CEAB25E11 /* XQMapper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XQMapper.podspec; path = ../XQMapper.podspec; sourceTree = "<group>"; };
+		1EA50C5905B94B6CEAB25E11 /* XQMapper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XQMapper.podspec; path = ../XQMapper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		34E7AD33365B1381AAA759D3 /* Pods-XQMapper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQMapper_Tests.release.xcconfig"; path = "Target Support Files/Pods-XQMapper_Tests/Pods-XQMapper_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		58CDF7B325888693005C7C8D /* TestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestModel.swift; path = Data/TestModel.swift; sourceTree = "<group>"; };
+		58CDF7B425888693005C7C8D /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Model.swift; path = Data/Model.swift; sourceTree = "<group>"; };
+		58CDF7B525888693005C7C8D /* TestModel1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestModel1.swift; path = Data/TestModel1.swift; sourceTree = "<group>"; };
+		58CDF7B9258886B0005C7C8D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = VC/ViewController.swift; sourceTree = "<group>"; };
+		58CDF7BA258886B0005C7C8D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = VC/AppDelegate.swift; sourceTree = "<group>"; };
+		58CDF7BD258886D9005C7C8D /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeController.swift; path = VC/HomeController.swift; sourceTree = "<group>"; };
 		5E0E8887EAF94E9263DBC68F /* Pods-XQMapper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQMapper_Example.debug.xcconfig"; path = "Target Support Files/Pods-XQMapper_Example/Pods-XQMapper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* XQMapper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XQMapper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* XQMapper_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XQMapper_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8111ACA77C48E7FCF9EBDE88 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8111ACA77C48E7FCF9EBDE88 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9CB61E89D2CBA414D3B98377 /* Pods_XQMapper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XQMapper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A331E9A6730682B201A31E49 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A331E9A6730682B201A31E49 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A69510C7A60F0BF3D0AFD176 /* Pods-XQMapper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQMapper_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XQMapper_Tests/Pods-XQMapper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A737B0128321F9574DE5297F /* Pods-XQMapper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQMapper_Example.release.xcconfig"; path = "Target Support Files/Pods-XQMapper_Example/Pods-XQMapper_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,6 +77,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58CDF7B02588861F005C7C8D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				58CDF7B425888693005C7C8D /* Model.swift */,
+				58CDF7B325888693005C7C8D /* TestModel.swift */,
+				58CDF7B525888693005C7C8D /* TestModel1.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		58CDF7B125888627005C7C8D /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				58CDF7BA258886B0005C7C8D /* AppDelegate.swift */,
+				58CDF7BD258886D9005C7C8D /* HomeController.swift */,
+				58CDF7B9258886B0005C7C8D /* ViewController.swift */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		58CDF7B22588863B005C7C8D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -93,11 +131,9 @@
 		607FACD21AFB9204008FA782 /* Example for XQMapper */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				58CDF7B125888627005C7C8D /* VC */,
+				58CDF7B02588861F005C7C8D /* Data */,
+				58CDF7B22588863B005C7C8D /* Resource */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for XQMapper";
@@ -156,7 +192,6 @@
 				A69510C7A60F0BF3D0AFD176 /* Pods-XQMapper_Tests.debug.xcconfig */,
 				34E7AD33365B1381AAA759D3 /* Pods-XQMapper_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +262,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -331,8 +367,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				58CDF7B625888693005C7C8D /* TestModel.swift in Sources */,
+				58CDF7B725888693005C7C8D /* Model.swift in Sources */,
+				58CDF7BE258886D9005C7C8D /* HomeController.swift in Sources */,
+				58CDF7BB258886B0005C7C8D /* ViewController.swift in Sources */,
+				58CDF7BC258886B0005C7C8D /* AppDelegate.swift in Sources */,
+				58CDF7B825888693005C7C8D /* TestModel1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

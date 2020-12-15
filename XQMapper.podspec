@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'XQMapper'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of XQMapper.'
+  s.summary          = 'json和模型相互转化g映射工具'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,16 +17,12 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "json转模型，json字符串转模型；模型转json的映射工具"
 
-  s.homepage         = 'https://github.com/ym-xiexiangqing/XQMapper'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/xiexiangqing/XQMapper'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ym-xiexiangqing' => 'xiexq@ecpark.cn' }
-  s.source           = { :git => 'https://github.com/ym-xiexiangqing/XQMapper.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'xiexiangqing' => '1373867490@qq.com' }
+  s.source           = { :git => 'https://github.com/xiexiangqing/XQMapper.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
